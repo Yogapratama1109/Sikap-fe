@@ -129,30 +129,48 @@
       </div>
     </nav>
 
-    <div class="main container">
-      <h2 class="mt-5">Profil</h2>
-      <div class="mt-3">
-        Sebagaimana yang dimaklumatkan dalam Undang Undang Nomor 12 Tahun 1995
-        tentang Pemasyarakatan, Sistem Pemasyarakatan merupakan suatu tatanan
-        mengenai arah dan batas serta cara pembinaan Warga Binaan Pemasyarakatan
-        berdasarkan Pancasila yang dilaksanakan secara terpadu antara pembina,
-        yang dibina, dan masyarakat untuk meningkatkan kualitas Warga Binaan
-        Pemasyarakatan agar menyadari kesalahan, memperbaiki diri, dan tidak
-        mengulangi tindak pidana sehingga dapat diterima kembali oleh lingkungan
-        masyarakat, dapat aktif berperan dalam pembangunan, dan dapat hidup
-        secara wajar sebagai warga yang baik dan bertanggung jawab. Dalam
-        penjelasan tentang Sistem Pemasyarakatan tersebut sangat jelas tercantum
-        besarnya peran serta masyarakat dalam pelaksanaan program
-        Pemasyarakatan.
+    <div class="main container mt-5">
+      <h3>Laporan Kerjasama</h3>
+      <div class="w-75 d-flex align-items-center mt-3">
+        <input
+          type="text"
+          class="mx-1 form-control w-50"
+          placeholder="Judul Laporan"
+          aria-describedby="emailHelp"
+        />
+        <select
+          class="mx-1 form-select w-25"
+          aria-label="Default select example"
+        >
+          <option selected>Kantor Wilayah</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+        <select
+          class="mx-1 form-select w-25"
+          aria-label="Default select example"
+        >
+          <option selected>UPT</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
       </div>
-      <h2 class="mt-5 text-center text-head">Dasar Hukum</h2>
-      <div class="wrapperTable table-responsive">
+      <div class="wrapperTable table-responsive mt-4">
         <table id="daftarHukum" class="tables" style="width: 100%">
           <thead>
             <tr>
               <th>#</th>
-              <th>Nama Peraturan</th>
-              <th>Tentang</th>
+              <th>Nama Kerjasama</th>
+              <th>Tanggal</th>
+              <th>Masa Berlaku(Tahun)</th>
+              <th>Kategori</th>
+              <th>Jenis</th>
+              <th>Kanwil</th>
+              <th>UPT</th>
+              <th>Kategori Mitra</th>
+              <th>Mitra</th>
               <th>Aksi</th>
             </tr>
           </thead>
@@ -161,75 +179,46 @@
               <td>1</td>
               <td>Peraturan Kepala Arsip Nasional Indonesia</td>
               <td>Pedoman Tata Naskah Dinas</td>
+              <td>Pedoman Tata Naskah Dinas</td>
+              <td>Pedoman Tata Naskah Dinas</td>
+              <td>Pedoman Tata Naskah Dinas</td>
+              <td>Pedoman Tata Naskah Dinas</td>
+              <td>Pedoman Tata Naskah Dinas</td>
+              <td>Pedoman Tata Naskah Dinas</td>
+              <td>Pedoman Tata Naskah Dinas</td>
               <td>
-                <a href="" class="btn btn-primary">Download</a>
+                <a href="" class="my-1 btn btn-primary d-flex align-items-center">
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 12 11"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6 8.1665L2.25 4.83317L3.3 3.8665L5.25 5.59984V0.166504H6.75V5.59984L8.7 3.8665L9.75 4.83317L6 8.1665ZM1.5 10.8332C1.0875 10.8332 0.734251 10.7025 0.440251 10.4412C0.146251 10.1798 -0.000498727 9.86606 1.27335e-06 9.49984V7.49984H1.5V9.49984H10.5V7.49984H12V9.49984C12 9.8665 11.853 10.1805 11.559 10.4418C11.265 10.7032 10.912 10.8336 10.5 10.8332H1.5Z"
+                      fill="white"
+                    />
+                  </svg>
+                  <p class="ms-2">Download</p>
+                </a>
+                <a href="" class="my-1 btn btn-outline-primary d-flex align-items-center">
+                    <svg width="14" height="14" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.5325 3.77992C13.2775 4.03492 13.03 4.28242 13.0225 4.52992C13 4.76992 13.255 5.01742 13.495 5.24992C13.855 5.62492 14.2075 5.96242 14.1925 6.32992C14.1775 6.69742 13.795 7.07992 13.4125 7.45492L10.315 10.5599L9.25 9.49492L12.4375 6.31492L11.7175 5.59492L10.6525 6.65242L7.84 3.83992L10.72 0.967422C11.0125 0.674922 11.5 0.674922 11.7775 0.967422L13.5325 2.72242C13.825 2.99992 13.825 3.48742 13.5325 3.77992ZM0.25 11.4374L7.42 4.25992L10.2325 7.07242L3.0625 14.2499H0.25V11.4374Z" fill="#0067B2"/>
+                        </svg>
+                        
+                    <p class="ms-2">Edit</p>
+                  </a>
+                  <a href="" class="my-1 btn btn-outline-danger d-flex align-items-center">
+                    <svg width="14" height="14" viewBox="0 0 12 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.25 14.25C1.8375 14.25 1.48425 14.103 1.19025 13.809C0.89625 13.515 0.7495 13.162 0.75 12.75V3H0V1.5H3.75V0.75H8.25V1.5H12V3H11.25V12.75C11.25 13.1625 11.103 13.5157 10.809 13.8097C10.515 14.1038 10.162 14.2505 9.75 14.25H2.25ZM3.75 11.25H5.25V4.5H3.75V11.25ZM6.75 11.25H8.25V4.5H6.75V11.25Z" fill="#FF0000"/>
+                        </svg>
+                    <p class="ms-2">Hapus</p>
+                  </a>
               </td>
             </tr>
           </tbody>
         </table>
-      </div>
-      <h2 class="mt-5 text-center text-head">Alur Tahapan Kerjasama</h2>
-      <img src="./assets/img/image 12.png" class="w-100 mt-3" />
-      <h2 class="mt-5 text-center text-head">Tugas dan Fungsi</h2>
-      <div class="mt-3">
-        <img src="./assets/img/Frame 1000002510.png" class="w-100" />
-      </div>
-      <h2 class="mt-5 text-center text-head">Kontak Kami</h2>
-      <div class="mt-3">
-        <h5 style="color: #ff731d">Alamat</h5>
-        <p class="mt-2 mb-2">
-          Sekretariat Jendral Kementrian Hukum dan Hak Asasi Manusia Republik
-          Indonesia Jl. HR.Rasuna Said kav 6-7 Kuningan, Jakarta Selatan, DKI
-          Jakarta, Indonesia-12940
-        </p>
-        <iframe
-          class="w-100"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11528.127271251222!2d106.85733334223798!3d-6.239149768431553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f309d45801ff%3A0xcd826f48200c3796!2sKantor%20Wilayah%20Kementerian%20Hukum%20dan%20HAM%20Jakarta!5e0!3m2!1sen!2sid!4v1691221299068!5m2!1sen!2sid"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-        <div class="d-flex align-items-center">
-          <div class="w-50">
-            <h5 class="mt-5 mb-3" style="color: #ff731d">Formulir</h5>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label"
-                >Nama Lengkap</label
-              >
-              <input type="email" class="form-control" />
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">E-Mail</label>
-              <input type="email" class="form-control" />
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label"
-                >No Telepon/HP</label
-              >
-              <input type="email" class="form-control" />
-            </div>
-            <div class="mb-4">
-              <label for="exampleInputEmail1" class="form-label">Pesan</label>
-              <div class="form-floating">
-                <textarea
-                  class="form-control"
-                  placeholder="Leave a comment here"
-                  id="floatingTextarea2"
-                  style="height: 100px"
-                ></textarea>
-              </div>
-            </div>
-            <div class="d-flex justify-content-end">
-              <button class="btn btn-primary">Kirim</button>
-            </div>
-          </div>
-          <div class="d-flex justify-content-center align-items-center">
-            <img src="./assets/img/Group 103.png" style="width: 60%;">
-          </div>
-        </div>
       </div>
     </div>
 

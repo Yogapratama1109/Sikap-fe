@@ -210,3 +210,10 @@ body {
       font-size: 14px;
     }
   }
+
+
+.galeri .card{
+  /* Mengatur lebar item agar 4 item per baris */
+  flex: 0 0 23%;
+  max-width: 18rem;
+}
