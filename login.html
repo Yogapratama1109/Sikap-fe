@@ -14,11 +14,11 @@
     <link rel="stylesheet" href="./assets/css/login.css" />
   </head>
   <body>
-    <div id="auth">
+    <!-- <div id="auth">
       <div class="imagesAuth">
         <img src="../assets/img/login-sikap.png" alt="" />
       </div>
-      <div class="sectionFormAuth">
+      <div class="container sectionFormAuth">
         <div class="headAuth">
           <img
             src="../assets/img/logo-sikap.png"
@@ -59,6 +59,55 @@
             </p>
           </div>
         </form>
+      </div>
+    </div> -->
+
+    <div id="auth" class="d-flex">
+      <div class="imagesAuth">
+        <img class="w-100" src="../assets/img/login-sikap.png" alt="" />
+      </div>
+      <div class="authForms d-flex flex-column align-items-center">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+          <img
+            src="../assets/img/logo-sikap.png"
+            style="width: 250px"
+            class="mb-3"
+          />
+          <h1>Selamat Datang Kembali!</h1>
+          <p class="mb-3">Mohon isi kembali data anda</p>
+        </div>
+        <form action="" class="w-75">
+          <div class="mb-3 inputForm">
+            <label for="exampleInputEmail1" class="form-label">Username/NIP<span class="text-danger">*</span></label>
+            <input
+              type="username"
+              class="form-control"
+              id="username"
+              placeholder="Username"
+            />
+          </div>
+          <div class="mb-3 inputForm passwordForm">
+            <label for="exampleInputEmail1" class="form-label">Password<span class="text-danger">*</span></label>
+            <input
+              type="password"
+              class="form-control"
+              id="password"
+              placeholder="Password"
+            />
+          </div>
+          <div class="mb-4 d-flex justify-content-end">
+            <a href="#" class="forgotPassword">Lupa Password</a>
+          </div>
+          <div
+            class="actionUser d-flex justify-content-center flex-column align-items-center"
+          >
+            <button class="btn btnPrimary">Log In</button>
+            <p class="text">
+              Belum punya akun? <a href="#">Daftar</a>
+            </p>
+          </div>
+        </form>
+      </div>
       </div>
     </div>
 

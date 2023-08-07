@@ -16,8 +16,12 @@ Resset Css
 }
 
 #auth .imagesAuth {
-  width: 45%;
+  width: 50%;
   height: 100%;
+}
+
+#auth .authForms{
+  width: 50%;
 }
 
 #auth .imagesAuth img {
@@ -28,7 +32,6 @@ Resset Css
 }
 
 #auth .sectionFormAuth {
-  width: 55%;
   height: 100%;
   display: flex;
   align-items: center;
@@ -157,12 +160,19 @@ Resset Css
   .imagesAuth {
     display: none;
   }
+  .authForms {
+    width: 100% !important;
+  }
   .sectionFormAuth {
     width: 100% !important;
   }
 }
 
 @media screen and (max-width: 768px) {
+  .authForms {
+    width: 100%;
+  }
+
   .sectionFormAuth {
     width: 100% !important;
     padding: 3rem !important;
